@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./design/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        srcset="./images/bg-pattern-desktop.svg 830w"
+        sizes="(max-width: 1250px) 0vw, (max-width: 1440px) 60vw, 830px"
+        alt="Background Pattern"
+        class="background__img"
+      />
+
+      <div class="content__header">
+        <img src="./images/logo.svg" alt="Logo" class="logo" />
+      </div>
+
+      <div class="content__body">
+        <h1 class="heading--primary">
+          <span>We're</span>
+          coming soon
+        </h1>
+        <p class="text">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <form action="#" novalidate>
+          <div class="container__email">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <img
+              src="./images/icon-error.svg"
+              alt="Error Icon"
+              class="icon--error hidden"
+            />
+            <button class="btn">
+              <img
+                src="./images/icon-arrow.svg"
+                alt="Arrow icon"
+                class="icon--arrow"
+              />
+            </button>
+          </div>
+          <div class="message--error hidden">Please provide a valid email</div>
+        </form>
+      </div>
+
+      <div class="img">
+        <img
+          srcset="./images/hero-mobile.jpg 375w, ./images/hero-desktop.jpg 610w"
+          alt="Image of lady"
+          sizes=" (max-width: 1250px) 375px, (max-width: 1440px) 45vw, 610px"
+          src="./images/hero-desktop.jpg"
+        />
+        <!-- <img src="./images/hero-mobile.jpg" alt="Image of lady" /> -->
+      </div>
+    </div>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/AbdulBasit619" target="_blank"
+          >Abdul Basit</a
+        >.
+      </p>
+    </footer>
+
+    <script src="./design/js/script.js"></script>
+  </body>
+</html>

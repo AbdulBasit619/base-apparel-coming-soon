@@ -1,0 +1,28 @@
+.heading--primary {
+  font-size: 6.6rem;
+  text-transform: uppercase;
+  font-weight: $fw--semibold;
+  letter-spacing: 15px;
+  color: $color--dark_grayish_red;
+
+  @media only screen and (max-width: 1250px) {
+    font-size: 4rem;
+    letter-spacing: 10px;
+    max-width: 30rem;
+  }
+
+  span {
+    font-weight: $fw--light;
+    color: $color--desaturated_red;
+  }
+}
+
+.text {
+  max-width: 44rem;
+  line-height: 1.5;
+  color: $color--desaturated_red;
+
+  @media only screen and (max-width: 1250px) {
+    max-width: 36rem;
+  }
+}
