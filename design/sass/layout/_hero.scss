@@ -39,7 +39,6 @@
 
     .container__email {
       width: 44rem;
-      padding-left: 3rem;
       padding-right: 0;
       border-radius: 22px 22px 22px 22px / 50% 50% 50% 50%;
       border: 1px solid $color--desaturated_red;
@@ -54,6 +53,9 @@
 
       #email {
         margin-right: auto;
+        padding: 1.4rem 3rem;
+        width: 30rem;
+        border-radius: 22px 22px 22px 22px / 50% 50% 50% 50%;
 
         &::placeholder {
           color: $color--desaturated_red;
